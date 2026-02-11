@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: FaGraduationCap,
       title: 'Final Year CS Student',
-      description: 'B.Sc. Computer Science with Data Science at Sri Krishna Arts and Science College, Coimbatore',
+      description: 'B.Sc. Computer Science with Cognitive System at Sri Krishna Arts and Science College, Coimbatore',
     },
     {
       icon: FaBriefcase,
