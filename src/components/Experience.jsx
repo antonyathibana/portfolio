@@ -56,14 +56,14 @@ const Experience = () => {
     },
     {
       id: 4,
-      type: 'education',
-      title: 'B.Sc. Computer Science with Data Science',
+type: 'education',
+      title: 'B.Sc. Computer Science with Cognitive System',
       organization: 'Sri Krishna Arts and Science College',
       location: 'Coimbatore, Tamil Nadu',
       date: '2023 - 2026',
-      description: 'Pursuing degree in Computer Science with specialization in Data Science. Focused on AI, Machine Learning, and Full Stack Development.',
+      description: 'Pursuing degree in Computer Science with specialization in Cognitive System. Focused on AI, Machine Learning, and Full Stack Development.',
       achievements: [
-        'Specialization in Data Science and AI/ML',
+        'Specialization in Cognitive System and AI/ML',
         'Building Final Year Project on AI-Based Systems',
         'Active member of Coding Club',
         'Participated in hackathons and coding competitions',

@@ -110,8 +110,8 @@ const About = () => {
 
             <div className="text-center md:text-left">
               <h3 className="text-2xl font-bold mb-4">Hello, I am ANTONY ATHIBAN!</h3>
-              <p className="text-gray leading-relaxed mb-6">
-                I am a final-year <span className="text-primary font-medium">B.Sc. Computer Science with Data Science</span> student at 
+<p className="text-gray leading-relaxed mb-6">
+                I am a final-year <span className="text-primary font-medium">B.Sc. Computer Science with Cognitive System</span> student at
                 <span className="text-secondary font-medium"> Sri Krishna Arts and Science College, Coimbatore</span>. 
                 I am passionate about Full Stack Development and Artificial Intelligence. 
                 I recently completed an internship at <span className="text-primary font-medium">CodeAura</span> 
