@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8b5cf6, #14b8a6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #7c3aed, #0d9488);
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(139, 92, 246, 0.2);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #8b5cf6, #14b8a6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply px-6 py-3 bg-gradient-to-r from-primary to-secondary rounded-full font-medium 
+         transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 
+         hover:-translate-y-1 active:scale-95;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border-2 border-primary text-primary rounded-full font-medium 
+         transition-all duration-300 hover:bg-primary hover:text-white 
+         hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-1 active:scale-95;
+}
+
+/* Section Styles */
+.section {
+  @apply py-20 px-4 md:px-8 lg:px-16;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-4 gradient-text;
+}
+
+.section-subtitle {
+  @apply text-gray text-lg md:text-xl mb-8;
+}
+
+/* Card Hover Effect */
+.card-hover {
+  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+}
+
+/* Input Styles */
+.input-field {
+  @apply w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg 
+         focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary 
+         transition-all duration-300 text-white placeholder-gray;
+}
+
+/* Badge Styles */
+.badge {
+  @apply px-3 py-1 text-sm rounded-full bg-primary/20 text-primary 
+         border border-primary/30 transition-all duration-300 hover:bg-primary/30;
+}
+
+/* Animation Classes */
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger Animation */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
+/* Typing Cursor */
+.typing-cursor::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Background Gradient Orb */
+.gradient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu {
+  @apply fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center 
+         transform transition-transform duration-300;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+.mobile-menu.closed {
+  transform: translateX(100%);
+}
+
