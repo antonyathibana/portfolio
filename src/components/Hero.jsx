@@ -110,7 +110,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.1 }}
+transition={{ delay: 1.1 }}
           >
             {[
               { icon: FaGithub, href: 'https://github.com/AntonyAthibana', label: 'GitHub' },
