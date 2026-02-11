@@ -1,0 +1,9 @@
+name: portfolio
+build:
+  publish: dist
+services:
+  - type: web
+    name: portfolio
+    buildCommand: npm run build
+    staticPublishPath: .
+
