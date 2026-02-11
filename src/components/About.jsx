@@ -40,13 +40,13 @@ const About = () => {
     { title: 'HTML', image: '/other-certificate/HTML.pdf', logo: '/logos/HTML5.png' },
     { title: 'Java', image: '/other-certificate/java.pdf', logo: '/logos/java.jpeg' },
     { title: 'LeetCode in Java', image: '/other-certificate/leetcode in java by udemy.pdf', logo: '/logos/udemy.png' },
-    { title: 'ServiceNow', image: '/other-certificate/‎Micro-Certification - Welcome to ServiceNow.pdf', logo: '/logos/service now.jpg' },
+    { title: 'ServiceNow', image: '/other-certificate/Micro-Certification-Welcome-to-ServiceNow.pdf', logo: '/logos/service now.jpg' },
     { title: 'Python', image: '/other-certificate/Python 3.4.3.pdf', logo: '/logos/python.png' },
     { title: 'RDBMS PostgreSQL', image: '/other-certificate/RDBMS PostgreSQL.pdf', logo: '/logos/PostgreSQL.png' },
     { title: 'IBM 1', image: '/ibm-certificates/ibm1.pdf', logo: '/logos/ibm.png' },
     { title: 'IBM 2', image: '/ibm-certificates/ibm2.pdf', logo: '/logos/ibm.png' },
     { title: 'IBM 3', image: '/ibm-certificates/ibm3.pdf', logo: '/logos/ibm.png' },
-    { title: 'IBM 4', image: '/ibm-certificates/ibm4 .pdf', logo: '/logos/ibm.png' },
+    { title: 'IBM 4', image: '/ibm-certificates/ibm4.pdf', logo: '/logos/ibm.png' },
     { title: 'IBM', image: '/ibm-certificates/ibm.pdf', logo: '/logos/ibm.png' },
   ];
 
