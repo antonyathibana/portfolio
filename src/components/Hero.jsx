@@ -114,7 +114,7 @@ transition={{ delay: 1.1 }}
           >
             {[
               { icon: FaGithub, href: 'https://github.com/AntonyAthibana', label: 'GitHub' },
-              { icon: FaLinkedin, href: 'https://linkedin.com/in/antonyathibana', label: 'LinkedIn' },
+              { icon: FaLinkedin, href: 'https://www.linkedin.com/in/antony-athiban/', label: 'LinkedIn' },
               { icon: FaEnvelope, href: 'mailto:antonyathibanofficial@gmail.com', label: 'Email' },
             ].map((social, index) => (
               <motion.a
